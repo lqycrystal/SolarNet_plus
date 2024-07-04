@@ -1,8 +1,8 @@
 # SolarNet_plus
 ## Datasets
-We trained our networks on [RID dataset](https://mediatum.ub.tum.de/1655470) 
+We trained our networks on [RID dataset](https://mediatum.ub.tum.de/1655470) .
 
-Here, we regenerate the annotation mask that has three channels. The first channel is the roof segmentation map, the second channel is the roof orientation map, and the third channel is the roof superstructure map. The sample data are provided in the folder ['dlcode/wbf_data/train/seg/3_3_5.png'] 
+Here, we regenerate the annotation mask that has three channels. The first channel is the roof segmentation map, the second channel is the roof orientation map, and the third channel is the roof superstructure map. The sample data are provided in the folder [`dlcode/wbf_data/train/seg/3_3_5.png`] 
 ## Acknowledgement
 We appreciate the work from the following repository: [CGSANet](https://github.com/MrChen18/CGSANet)
 ## License
