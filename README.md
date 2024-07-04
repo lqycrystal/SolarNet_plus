@@ -1,6 +1,6 @@
 # SolarNet_plus
 ## Datasets
-We trained our networks on [RID] dataset (https://mediatum.ub.tum.de/1655470)
+We trained our networks on [RID dataset](https://mediatum.ub.tum.de/1655470)
 ## Acknowledgement
 We appreciate the work from the following repository: [CGSANet](https://github.com/MrChen18/CGSANet)
 ## License
