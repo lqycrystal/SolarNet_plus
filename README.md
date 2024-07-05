@@ -1,4 +1,9 @@
 # SolarNet_plus
+This repository contains the code for our paper "Deep learning-based framework for city-scale rooftop solar potential estimation by considering roof superstructures".
+
+## Introduction
+Solar energy is an environmentally friendly energy source. Identifying suitable rooftops for solar panel installation contributes to not only sustainable energy plans but also carbon neutrality goals. Aerial imagery, bolstered by its growing availability, is a cost-effective data source for rooftop solar potential assessment at large scale. Existing studies generally do not take roof superstructures into account when determining how many solar panels can be installed. This procedure will lead to an overestimation of solar potential. Only several works have considered this issue, but none have devised a network that can simultaneously learn roof orientations and roof superstructures. Therefore, we devise SolarNet+, a novel framework to improve the precision of rooftop solar potential estimation. After implementing SolarNet+ on a benchmark dataset, we find that SolarNet+ outperforms other state-of-the-art approaches in both tasks - roof orientations and roof superstructure segmentation. Moreover, the SolarNet+ framework enables rooftop solar estimation at large-scale applications for investigating the correlation between urban rooftop solar potential and various local climate zone (LCZ) types. The results in the city of Brussels reveal that three specific LCZ urban types exhibit the highest rooftop solar potential efficiency: compact highrise (LCZ1), compact midrise (LCZ2), and heavy industry (LCZ10). The annual photovoltaic potential for these LCZ types is reported as 10.56 GWh/year/km^2, 11.77 GWh/year/km^2, and 10.70 GWh/year/km^2, respectively. 
+
 ## Datasets
 We trained our networks on [RID dataset](https://mediatum.ub.tum.de/1655470).
 
